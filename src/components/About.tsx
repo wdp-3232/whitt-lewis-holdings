@@ -1,7 +1,7 @@
 import React from 'react';
 import { Linkedin } from 'lucide-react';
 import { Button } from './ui/button';
-import headshot from 'figma:asset/d7fca004035a2cdf8b071be44329ed541467dbb1.png';
+import headshot from 'figma:asset/71f9fea65749650b2b971720222f77ad42c95486.png';
 
 export const About: React.FC = () => {
   return (
@@ -11,11 +11,11 @@ export const About: React.FC = () => {
           <div className="flex flex-col items-center">
             <div className="relative w-full max-w-md mx-auto mb-10">
                 {/* Image Container */}
-                <div className="aspect-[4/5] bg-gray-100 w-full relative z-10 overflow-hidden rounded-sm shadow-xl">
+                <div className="aspect-[4/5] bg-gray-100 w-full relative z-10 overflow-hidden rounded-sm shadow-xl group">
                     <img 
                         src={headshot}
                         alt="Will Pearce" 
-                        className="w-full h-full object-cover object-top"
+                        className="w-full h-full object-cover object-[center_48%] scale-[1.9] origin-[center_48%]"
                     />
                 </div>
                 {/* Decorative element */}

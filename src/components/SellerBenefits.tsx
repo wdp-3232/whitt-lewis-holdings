@@ -33,7 +33,7 @@ export const SellerBenefits: React.FC = () => {
             What I Offer as a Buyer
           </h2>
           <p className="text-gray-600 text-lg">
-            My goal is to do right by you, your people, and your customers, and to be the kind of buyer you’d feel proud handing the business to.
+            My goal is to do right by you, your people, and your customers, and to be the kind of buyer you’d feel proud entrusting your business to.
           </p>
         </div>
 

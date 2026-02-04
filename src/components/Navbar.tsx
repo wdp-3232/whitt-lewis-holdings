@@ -1,8 +1,13 @@
 import React from 'react';
 import { Logo } from './Logo';
 import { Button } from './ui/button';
+import { FileText } from 'lucide-react';
 
-export const Navbar: React.FC = () => {
+interface NavbarProps {
+  onOpenBrochure: () => void;
+}
+
+export const Navbar: React.FC<NavbarProps> = ({ onOpenBrochure }) => {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -30,6 +35,15 @@ export const Navbar: React.FC = () => {
             <button onClick={() => scrollToSection('criteria')} className="text-sm font-bold text-gray-700 hover:text-blue-700 transition-colors">
               Investment Criteria
             </button>
+            
+            <button 
+              onClick={onOpenBrochure}
+              className="text-sm font-bold text-gray-700 hover:text-blue-700 transition-colors flex items-center gap-2"
+            >
+              <FileText size={16} />
+              Brochure
+            </button>
+
             <Button 
               onClick={() => scrollToSection('contact')}
               variant="default" 
