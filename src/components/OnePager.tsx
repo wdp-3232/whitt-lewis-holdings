@@ -893,7 +893,7 @@ function Text16() {
 function Text17() {
   return (
     <div className="absolute content-stretch flex h-[13.063px] items-start left-[10.84px] top-0 w-[153.969px]" data-name="Text">
-      <p className="font-sans font-normal leading-[13.063px] relative shrink-0 text-[#57534d] text-[9.5px]">{`$400K - $1.25M of owners' earnings`}</p>
+      <p className="font-sans font-normal leading-[13.063px] relative shrink-0 text-[#57534d] text-[9.5px]">{`At least $400K of owners' earnings`}</p>
     </div>
   );
 }
