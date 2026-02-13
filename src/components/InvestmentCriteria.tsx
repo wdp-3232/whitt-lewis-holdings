@@ -11,7 +11,7 @@ const criteria = [
   {
     icon: <TrendingUp className="h-8 w-8 text-blue-700 mb-4" />,
     title: "Financial Profile",
-    details: ["At least $400K of owners' earnings", "History of profitability", "Low capital expenditure requirements", "No single customer greater than 20% of revenue"]
+    details: ["At least $400K in owners' earnings", "History of profitability", "Low capital expenditure requirements", "No single customer greater than 20% of revenue"]
   },
   {
     icon: <Users className="h-8 w-8 text-blue-700 mb-4" />,

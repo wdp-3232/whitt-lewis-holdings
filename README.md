@@ -1,7 +1,7 @@
 
-  # Logo Design for Whitt Lewis Holdings
+  # Whitt Lewis Holdings | A Long-Term Home for Your Business
 
-  This is a code bundle for Logo Design for Whitt Lewis Holdings. The original project is available at https://www.figma.com/design/mHdPGJESEntYr96gjn3vTI/Logo-Design-for-Whitt-Lewis-Holdings.
+  This is a code bundle for Whitt Lewis Holdings | A Long-Term Home for Your Business. The original project is available at https://www.figma.com/design/mHdPGJESEntYr96gjn3vTI/Whitt-Lewis-Holdings-%7C-A-Long-Term-Home-for-Your-Business.
 
   ## Running the code
 

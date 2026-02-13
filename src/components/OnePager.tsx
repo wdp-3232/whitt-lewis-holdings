@@ -464,7 +464,7 @@ function Heading6() {
 
 function Paragraph8() {
   return (
-    <div className="content-stretch flex h-[16.5px] items-start relative shrink-0 w-full" data-name="Paragraph">
+    <div className="content-stretch flex h-[16.5px] items-start relative shrink-0 w-full mb-[24px]" data-name="Paragraph">
       <p className="flex-[1_0_0] font-sans font-bold leading-[16.5px] min-h-px min-w-px relative text-[#79716b] text-[11px] tracking-[0.55px] uppercase whitespace-pre-wrap">{`Founder & Principal`}</p>
     </div>
   );
@@ -610,7 +610,7 @@ function Container28() {
 
 function Container24() {
   return (
-    <div className="content-stretch flex flex-col gap-[8px] h-[87px] items-start relative shrink-0 w-full" data-name="Container">
+    <div className="content-stretch flex flex-col gap-[16px] h-auto items-start relative shrink-0 w-full" data-name="Container">
       <Container25 />
       <Container26 />
       <Container27 />
@@ -621,7 +621,7 @@ function Container24() {
 
 function Container23() {
   return (
-    <div className="content-stretch flex flex-col h-[143.5px] items-start relative shrink-0 w-full" data-name="Container">
+    <div className="content-stretch flex flex-col h-auto items-start relative shrink-0 w-full" data-name="Container">
       <Heading6 />
       <Paragraph8 />
       <Container24 />
@@ -631,9 +631,9 @@ function Container23() {
 
 function Container22() {
   return (
-    <div className="bg-white h-[486.906px] relative shrink-0 w-[276.438px]" data-name="Container">
+    <div className="bg-white h-auto relative shrink-0 w-[276.438px]" data-name="Container">
       <div aria-hidden="true" className="absolute border-[#e7e5e4] border-b border-solid inset-0 pointer-events-none" />
-      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[12px] items-start pb-px pt-[20px] px-[20px] relative size-full">
+      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[8px] items-start pb-[24px] pt-[20px] px-[20px] relative w-full">
         <ImageWillPearce />
         <Container23 />
       </div>
@@ -893,7 +893,7 @@ function Text16() {
 function Text17() {
   return (
     <div className="absolute content-stretch flex h-[13.063px] items-start left-[10.84px] top-0 w-[153.969px]" data-name="Text">
-      <p className="font-sans font-normal leading-[13.063px] relative shrink-0 text-[#57534d] text-[9.5px]">{`At least $400K of owners' earnings`}</p>
+      <p className="font-sans font-normal leading-[13.063px] relative shrink-0 text-[#57534d] text-[9.5px]">{`At least $400K in owners' earnings`}</p>
     </div>
   );
 }
@@ -1305,7 +1305,7 @@ function Container38() {
 
 function Container31() {
   return (
-    <div className="h-[478.594px] relative shrink-0 w-[244.438px]" data-name="Container">
+    <div className="flex-[1_0_0] relative w-[244.438px]" data-name="Container">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start justify-between pb-[8px] relative size-full">
         <Container32 />
         <Container34 />
@@ -1319,7 +1319,7 @@ function Container31() {
 function Container29() {
   return (
     <div className="flex-[1_0_0] min-h-px min-w-px relative w-[276.438px]" data-name="Container">
-      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[8px] items-start pl-[16px] pt-[8px] relative size-full">
+      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[4px] items-start pl-[16px] pt-[4px] relative size-full">
         <Container30 />
         <Container31 />
       </div>
@@ -1329,8 +1329,7 @@ function Container29() {
 
 function Container40() {
   return (
-    <div className="bg-[#e7e5e4] h-[38.5px] relative shrink-0 w-[276.438px]" data-name="Container">
-      <div aria-hidden="true" className="absolute border-[#d6d3d1] border-solid border-t inset-0 pointer-events-none" />
+    <div className="bg-[#f0efed] h-[38.5px] relative shrink-0 w-[276.438px]" data-name="Container">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
         <p className="-translate-x-1/2 absolute font-sans font-normal leading-[13.5px] left-[138.69px] text-[#79716b] text-[9px] text-center top-[11px] w-[117px] whitespace-pre-wrap">© 2026 Whitt Lewis Holdings</p>
       </div>
@@ -1340,7 +1339,7 @@ function Container40() {
 
 function Container21() {
   return (
-    <div className="bg-[#f5f5f4] h-[1056px] relative shrink-0 w-[277.438px]" data-name="Container">
+    <div className="bg-[#f0efed] h-[1056px] relative shrink-0 w-[277.438px]" data-name="Container">
       <div aria-hidden="true" className="absolute border-[#e7e5e4] border-l border-solid inset-0 pointer-events-none" />
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start pl-px relative size-full">
         <Container22 />
@@ -1353,7 +1352,7 @@ function Container21() {
 
 function Container() {
   return (
-    <div className="absolute bg-white content-stretch flex h-[1056px] items-start left-[360px] overflow-clip shadow-[0px_25px_50px_-12px_rgba(0,0,0,0.25)] top-[32px] w-[816px]" data-name="Container">
+    <div className="absolute bg-white content-stretch flex h-[1056px] items-start left-[360px] overflow-clip shadow-[0px_25px_50px_-12px_rgba(0,0,0,0.25)] top-[32px] w-[816px] print:static print:m-0 print:shadow-none" data-name="Container">
       <Container1 />
       <Container21 />
     </div>
@@ -1441,8 +1440,21 @@ interface BrochurePageProps {
 
 export const BrochurePage: React.FC<BrochurePageProps> = ({ onBack }) => {
   return (
-    <div className="min-h-screen bg-[#f5f5f4] w-full overflow-y-auto">
-        <div className="relative w-full min-w-[1024px] flex justify-center pb-12 pt-8" data-name="One-Pager & Letter Head">
+    <div className="min-h-screen bg-[#f5f5f4] w-full overflow-y-auto print:bg-white print:h-auto print:overflow-visible">
+      <style>
+        {`
+          @media print {
+            @page {
+              margin: 0;
+            }
+            body {
+              -webkit-print-color-adjust: exact !important;
+              print-color-adjust: exact !important;
+            }
+          }
+        `}
+      </style>
+        <div className="relative w-full min-w-[1024px] flex justify-center pb-12 pt-8 print:block print:w-auto print:min-w-0 print:p-0" data-name="One-Pager & Letter Head">
             <Container41 onClose={onBack} />
             <Container />
         </div>

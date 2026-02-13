@@ -35,7 +35,7 @@ export const Hero: React.FC = () => {
             A Long-Term Home <br />
             <span className="text-blue-100">for Your Business</span>
           </h1>
-          <p className="text-lg md:text-xl text-gray-100 mb-10 font-medium max-w-xl leading-relaxed drop-shadow-sm">
+          <p className="text-lg md:text-xl text-gray-100 mb-10 font-medium max-w-2xl leading-relaxed drop-shadow-sm">
             Whitt Lewis Holdings is a North Carolina-based firm founded by Will Pearce for the purpose of purchasing one exceptional service business in the Southeast to own and operate long-term
           </p>
           <div className="flex flex-col sm:flex-row gap-5">
